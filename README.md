@@ -46,9 +46,6 @@ navigate to http://localhost:8080/
 - The creation of the final image, i.e. the superimposition of the two images, takes place on the server side
 - Ability to upload an image if webcam access is not available
 
-<img alt="Home" src="./readme_img/home.png" width="75%" title="home">
-<img alt="photo" src="./readme_img/photo.png" width="75%" title="photo">
-
 
 ### Gallery
 - Public section, with infinite pagination, containing photos of all users, sorted by creation date
