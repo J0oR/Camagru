@@ -1,0 +1,170 @@
+@media only screen and (min-width: 300px)
+{
+    .super_img
+    {
+        max-width: 30vw;
+        margin: auto;
+    }
+    #card
+    {
+        max-width: 80%;
+        margin: auto;
+    }
+    #content
+    {
+        margin: auto;
+    }
+    #fileToUpload
+    {
+        width: 75%;
+    }
+
+}
+
+
+/**
+* Superposables section
+*/
+.radio_img > input                            /* hide radio */
+{
+    visibility: hidden;                       /* Makes input not-clickable */
+    opacity: 0;
+    position: absolute;                      /* Remove input from document flow */
+}
+
+.radio_img > input + figure                 /* IMAGE STYLES */
+{
+    cursor:pointer;
+    border:2px solid transparent;
+}
+
+.radio_img > input:checked + figure         /* (RADIO CHECKED) IMAGE STYLES */
+{
+    border:2px solid #2c05ff;
+}
+
+
+/**
+* camera section
+*/
+
+/*.camera
+{
+    width: 450px;
+    display:inline-block;
+}*/
+
+#video, #photo
+{
+    width: 100%;
+    height:auto;
+}
+
+/*#canvas*/
+/*{*/
+    /*display:none;*/
+/*}*/
+
+
+/*.output*/
+/*{*/
+    /*width: fit-content;*/
+    /*height: fit-content;*/
+/*}*/
+
+/*.output #photo*/
+/*{*/
+    /*display: none;*/
+/*}*/
+
+
+
+
+/**
+* user shots section
+**/
+.shot_box
+{
+    max-height: 100vw;
+    display: flex;
+}
+.shot_container
+{
+
+    overflow-y: auto;
+    max-height: 55%;
+}
+
+
+/**
+ * Cool scrollbar, only Chrome
+ **/
+
+/* width */
+.shot_container::-webkit-scrollbar
+{
+    width: 5%;
+}
+::-webkit-scrollbar
+{
+    width: 1%;
+}
+/* Track */
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+    background: seagreen;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+    background: #b30000;
+}
+
+
+
+/**
+* choose file cool css
+ */
+input[type="file"]
+{
+    display: none;
+}
+
+
+
+/*#img_preview*/
+/*{*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*width: 10vw;*/
+    /*margin-left: -25vw;*/
+/*}*/
+
+
+/*!****/
+ /*** User must log in to view the page*/
+ /****!*/
+/*.home_unlogged*/
+/*{*/
+    /*padding: 1vw;*/
+    /*color: white;*/
+    /*background-color: #2196F3;*/
+    /*width: available;*/
+/*}*/
+
+/*#content{*/
+/*align-content: center;*/
+/*}*/
+
+/*#video{*/
+    /*margin-left: auto;*/
+    /*margin-right: 0;*/
+/*}*/
+
