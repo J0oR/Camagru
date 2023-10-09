@@ -1,9 +1,8 @@
 # Camagru
 ###### Ecole 42 - Initial project of the web path   
 
-A PHP project with the objective of creating an Instagram-like web application.
-Built with MVC architecture and PDO.
-(Frameworks are not allowed)
+A school project with the objective of creating an Instagram-like web application.
+Built with MVC architecture and PDO (Frameworks were not allowed).
 
 ## Getting Started
 
