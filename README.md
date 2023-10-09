@@ -19,8 +19,6 @@ sendmail
 
 ### Installing
 ```
-git clone 
-cd 
 php -S localhost:8080
 navigate to http://localhost:8080/config/setup.php
 navigate to http://localhost:8080/
